@@ -19,7 +19,7 @@ public class MainActivity extends AppCompatActivity{
     ArrayList<Quiz> quizQues = new ArrayList<>();
 
     Random rnd;
-    int score;
+    int score,rndNumber;
 
     @Override
     protected void onCreate(Bundle savedInstanceState)
@@ -46,5 +46,11 @@ public class MainActivity extends AppCompatActivity{
         quizQues.add(new Quiz("The earth is made up of ___________ % of iron.","4","5","6","7","5"));
         quizQues.add(new Quiz("____________ is an irreversible cell.","Dry Cell","Zn Cell","Chargeable Cell","None of these","Dry Cell"));
 
+        rndNumber = rnd.nextInt(quizQues.size());
+
+        que.setText(quizQues.get(rndNumber).getQue());
+        btn1.setText(quizQues.get(rndNumber).getOpt1());
+        btn2.setText(quizQues.get(rndNumber).getOpt2());
+        btn3.setText(quizQues.get(rndNumber).getOpt3());
     }
 }
