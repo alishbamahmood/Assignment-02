@@ -219,42 +219,123 @@ public class MainActivity extends AppCompatActivity {
         q1.setText(queAns.get(0)[0]);
         c1.setText(queAns.get(0)[1]);
         a1.setText(queAns.get(0)[2]);
+        if(queAns.get(0)[1].trim().toLowerCase().equals(queAns.get(0)[2].trim().toLowerCase()))
+        {
+            a1.setBackgroundColor(Color.GREEN);
+        }
+        else
+        {
+            a1.setBackgroundColor(Color.RED);
+        }
+
 
         q2.setText(queAns.get(1)[0]);
         c2.setText(queAns.get(1)[1]);
         a2.setText(queAns.get(1)[2]);
+        if(queAns.get(1)[1].trim().toLowerCase().equals(queAns.get(1)[2].trim().toLowerCase()))
+        {
+            a1.setBackgroundColor(Color.GREEN);
+        }
+        else
+        {
+            a1.setBackgroundColor(Color.RED);
+        }
 
         q3.setText(queAns.get(2)[0]);
         c3.setText(queAns.get(2)[1]);
         a3.setText(queAns.get(2)[2]);
+        if(queAns.get(2)[1].trim().toLowerCase().equals(queAns.get(2)[2].trim().toLowerCase()))
+        {
+            a1.setBackgroundColor(Color.GREEN);
+        }
+        else
+        {
+            a1.setBackgroundColor(Color.RED);
+        }
 
         q4.setText(queAns.get(3)[0]);
         c4.setText(queAns.get(3)[1]);
         a4.setText(queAns.get(3)[2]);
+        if(queAns.get(3)[1].trim().toLowerCase().equals(queAns.get(3)[2].trim().toLowerCase()))
+        {
+            a1.setBackgroundColor(Color.GREEN);
+        }
+        else
+        {
+            a1.setBackgroundColor(Color.RED);
+        }
 
         q5.setText(queAns.get(4)[0]);
         c5.setText(queAns.get(4)[1]);
         a5.setText(queAns.get(4)[2]);
+        if(queAns.get(4)[1].trim().toLowerCase().equals(queAns.get(4)[2].trim().toLowerCase()))
+        {
+            a1.setBackgroundColor(Color.GREEN);
+        }
+        else
+        {
+            a1.setBackgroundColor(Color.RED);
+        }
 
         q6.setText(queAns.get(5)[0]);
         c6.setText(queAns.get(5)[1]);
         a6.setText(queAns.get(5)[2]);
+        if(queAns.get(5)[1].trim().toLowerCase().equals(queAns.get(5)[2].trim().toLowerCase()))
+        {
+            a1.setBackgroundColor(Color.GREEN);
+        }
+        else
+        {
+            a1.setBackgroundColor(Color.RED);
+        }
 
         q7.setText(queAns.get(6)[0]);
         c7.setText(queAns.get(6)[1]);
         a7.setText(queAns.get(6)[2]);
+        if(queAns.get(6)[1].trim().toLowerCase().equals(queAns.get(6)[2].trim().toLowerCase()))
+        {
+            a1.setBackgroundColor(Color.GREEN);
+        }
+        else
+        {
+            a1.setBackgroundColor(Color.RED);
+        }
 
         q8.setText(queAns.get(7)[0]);
         c8.setText(queAns.get(7)[1]);
         a8.setText(queAns.get(7)[2]);
+        if(queAns.get(7)[1].trim().toLowerCase().equals(queAns.get(7)[2].trim().toLowerCase()))
+        {
+            a1.setBackgroundColor(Color.GREEN);
+        }
+        else
+        {
+            a1.setBackgroundColor(Color.RED);
+        }
 
         q9.setText(queAns.get(8)[0]);
         c9.setText(queAns.get(8)[1]);
         a9.setText(queAns.get(8)[2]);
+        if(queAns.get(8)[1].trim().toLowerCase().equals(queAns.get(8)[2].trim().toLowerCase()))
+        {
+            a1.setBackgroundColor(Color.GREEN);
+        }
+        else
+        {
+            a1.setBackgroundColor(Color.RED);
+        }
 
         q10.setText(queAns.get(9)[0]);
         c10.setText(queAns.get(9)[1]);
         a10.setText(queAns.get(9)[2]);
+        if(queAns.get(9)[1].trim().toLowerCase().equals(queAns.get(9)[2].trim().toLowerCase()))
+        {
+            a1.setBackgroundColor(Color.GREEN);
+        }
+        else
+        {
+            a1.setBackgroundColor(Color.RED);
+        }
 
 
     }
