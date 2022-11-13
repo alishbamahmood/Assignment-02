@@ -133,7 +133,8 @@ public class MainActivity extends AppCompatActivity {
 
 
     private void setData(int num) {
-        que.setText(quizQues.get(num).getQue() );
+        int n = num+1;
+        que.setText("Que " + n + ": " + quizQues.get(num).getQue() );
         String [] array = quizQues.get(num).getOpts();
 
         List<String> opt = Arrays.asList(array);
