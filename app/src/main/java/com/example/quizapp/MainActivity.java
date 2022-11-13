@@ -22,7 +22,7 @@ public class MainActivity extends AppCompatActivity {
 
     ArrayList<Quiz> quizQues = new ArrayList<>();
     ArrayList<String[]> queAns = new ArrayList<>();
-    List<String> ans = new ArrayList<>();
+    //List<String> ans = new ArrayList<>();
     String answer;
 
     TextView q1,q2,q3,q4,q5,q6,q7,q8,q9,q10;
@@ -100,31 +100,31 @@ public class MainActivity extends AppCompatActivity {
         String[] options1 =  new String[]{"2","3","4","5"};
         quizQues.add(new Quiz("There are _________ types of bonds",options1,"4"));
 
-        String[] options2 =  new String[]{"Gold","Ag","Neon","Nil"};
+        String[] options2 =  new String[]{"Gold","Ag","Neon","Mg"};
         quizQues.add(new Quiz("In silver plating Anode is made of",options2,"Ag"));
 
         String[] options3 =  new String[]{"Al","Mg","Na","Hg"};
         quizQues.add(new Quiz("All metals are solid except",options3,"Hg"));
 
-        String[] options4 =  new String[]{"+","-","No","Nil"};
+        String[] options4 =  new String[]{"+","-","None","all"};
         quizQues.add(new Quiz("Neutrons have _________ charge.",options4,"-"));
 
         String[] options5 =  new String[]{"Lubricants","Cutting","Crafting","Nil"};
         quizQues.add(new Quiz("Bucky Balls are used as",options5,"Lubricants"));
 
-        String[] options6 =  new String[]{"Soft","Hard","Bulky","Nil"};
+        String[] options6 =  new String[]{"Soft","Hard","Bulky","none"};
         quizQues.add(new Quiz("Diamonds is ____________",options6,"Hard"));
 
-        String[] options7 =  new String[]{"Velocity","Density","Pressure","Nil"};
+        String[] options7 =  new String[]{"Velocity","Density","Pressure","none"};
         quizQues.add(new Quiz("Mass per unit volume is:",options7,"Density"));
 
-        String[] options8 =  new String[]{"Covalent","Ionic","Intermolecular","Nil"};
+        String[] options8 =  new String[]{"Covalent","Ionic","Intermolecular","none"};
         quizQues.add(new Quiz("The forces of attraction present between the molecules of a substance are called ____________ forces.",options8,"Intermolecular"));
 
         String[] options9 =  new String[]{"4","5","6","7"};
         quizQues.add(new Quiz("The earth is made up of ___________ % of iron.",options9,"5"));
 
-        String[] options10 =  new String[]{"Dry Cell","Zn Cell","Chargeable Cell","None of these"};
+        String[] options10 =  new String[]{"Dry Cell","Zn Cell","Chargeable Cell","None"};
         quizQues.add(new Quiz("____________ is an irreversible cell.",options10,"Dry Cell"));
 
         Collections.shuffle(quizQues);
@@ -134,54 +134,38 @@ public class MainActivity extends AppCompatActivity {
         btn1.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
-                if(quizQues.get(i).getAnswer().trim().toLowerCase().equals(btn1.getText().toString().trim().toLowerCase()))
-                {
-
-                    answer = btn1.getText().toString();
-                    ans.add(answer);
-
-                }
+                answer = btn1.getText().toString();
             }
         });
 
         btn2.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
-                if(quizQues.get(i).getAnswer().trim().toLowerCase().equals(btn2.getText().toString().trim().toLowerCase())) {
-
-                    answer = btn2.getText().toString();
-                    ans.add(answer);
-                }
+                answer = btn2.getText().toString();
             }
         });
 
         btn3.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
-                if(quizQues.get(i).getAnswer().trim().toLowerCase().equals(btn3.getText().toString().trim().toLowerCase()))
-                {
-
-                    answer = btn3.getText().toString();
-                    ans.add(answer);
-                }
+                answer = btn3.getText().toString();
             }
         });
 
         btn4.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
-                if(quizQues.get(i).getAnswer().trim().toLowerCase().equals(btn4.getText().toString().trim().toLowerCase()))
-                {
-
-                    answer = btn4.getText().toString();
-                    ans.add(answer);
-                }
+                answer = btn4.getText().toString();
             }
         });
 
         next.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
+                TextView a;
+                a=findViewById(R.id.a);
+                a.setText(answer);
+                //System.out.println(answer);
                 String[] array = new String[]{quizQues.get(i).getQue(),quizQues.get(i).getAnswer(),answer};
                 queAns.add(array);
                 if(quizQues.get(i).getAnswer().trim().toLowerCase().equals(answer.trim().toLowerCase()))

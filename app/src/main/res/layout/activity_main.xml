@@ -113,7 +113,20 @@
             >
         </Button>
 
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="40sp"
+            android:id="@+id/a"
 
+            android:text="Chemistry MCQ-Based test"
+            android:textColor="#272343"
+            android:textAlignment="center"
+            android:gravity="center"
+            android:textStyle="bold"
+            android:textSize="30sp"
+            >
+        </TextView>
     </LinearLayout>
 
 <LinearLayout
@@ -135,23 +148,23 @@
             android:text="Score: "
             android:textStyle="bold"
             android:textAlignment="center"
-            android:textSize="25dp"
+            android:textSize="20dp"
+            android:textColor="@color/purple_500"
             android:layout_marginTop="120sp"
-            android:textColor="@color/black"
             />
 
         <LinearLayout
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_below="@+id/scoreView"
-            android:layout_marginTop="30dp"
+            android:layout_marginTop="18dp"
             android:orientation="horizontal"
             android:id="@+id/Q"
             >
 
             <TextView
                 android:layout_marginLeft="20sp"
-                android:layout_width="220sp"
+                android:layout_width="190sp"
                 android:layout_height="wrap_content"
                 android:textSize="15sp"
                 android:text="QUESTIONS"
@@ -198,7 +211,7 @@
 
             <TextView
                 android:layout_marginLeft="20sp"
-                android:layout_width="220sp"
+                android:layout_width="190sp"
                 android:layout_height="wrap_content"
                 android:textSize="15sp"
                 android:text="q1"
@@ -235,7 +248,7 @@
             >
             <TextView
                 android:layout_marginLeft="20sp"
-                android:layout_width="220sp"
+                android:layout_width="190sp"
                 android:layout_height="wrap_content"
                 android:textSize="15sp"
                 android:text="q2"
@@ -275,7 +288,7 @@
             >
             <TextView
                 android:layout_marginLeft="20sp"
-                android:layout_width="220sp"
+                android:layout_width="190sp"
                 android:layout_height="wrap_content"
                 android:textSize="15sp"
                 android:text="q3"
@@ -313,7 +326,7 @@
             >
             <TextView
                 android:layout_marginLeft="20sp"
-                android:layout_width="220sp"
+                android:layout_width="190sp"
                 android:layout_height="wrap_content"
                 android:textSize="15sp"
                 android:text="q4"
@@ -353,7 +366,7 @@
             >
             <TextView
                 android:layout_marginLeft="20sp"
-                android:layout_width="220sp"
+                android:layout_width="190sp"
                 android:layout_height="wrap_content"
                 android:textSize="15sp"
                 android:text="q5"
@@ -393,7 +406,7 @@
             >
             <TextView
                 android:layout_marginLeft="20sp"
-                android:layout_width="220sp"
+                android:layout_width="190sp"
                 android:layout_height="wrap_content"
                 android:textSize="15sp"
                 android:text="q6"
@@ -434,7 +447,7 @@
             >
             <TextView
                 android:layout_marginLeft="20sp"
-                android:layout_width="220sp"
+                android:layout_width="190sp"
                 android:layout_height="wrap_content"
                 android:textSize="15sp"
                 android:text="q7"
@@ -473,7 +486,7 @@
             >
             <TextView
                 android:layout_marginLeft="20sp"
-                android:layout_width="220sp"
+                android:layout_width="190sp"
                 android:layout_height="wrap_content"
                 android:textSize="15sp"
                 android:text="q8"
@@ -512,7 +525,7 @@
             >
             <TextView
                 android:layout_marginLeft="20sp"
-                android:layout_width="220sp"
+                android:layout_width="190sp"
                 android:layout_height="wrap_content"
                 android:textSize="15sp"
                 android:text="q9"
@@ -551,7 +564,7 @@
             >
             <TextView
                 android:layout_marginLeft="20sp"
-                android:layout_width="220sp"
+                android:layout_width="190sp"
                 android:layout_height="wrap_content"
                 android:textSize="15sp"
                 android:text="q10"
