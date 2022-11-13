@@ -139,10 +139,58 @@
             android:layout_marginTop="120sp"
             android:textColor="@color/black"
             />
+
         <LinearLayout
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_below="@+id/scoreView"
+            android:layout_marginTop="30dp"
+            android:orientation="horizontal"
+            android:id="@+id/Q"
+            >
+
+            <TextView
+                android:layout_marginLeft="20sp"
+                android:layout_width="220sp"
+                android:layout_height="wrap_content"
+                android:textSize="15sp"
+                android:text="QUESTIONS"
+                android:textStyle="bold"
+                android:textAlignment="center"
+                android:background="@color/black"
+                android:textColor="@color/white"
+                />
+
+
+            <TextView
+                android:layout_width="60sp"
+                android:layout_height="wrap_content"
+                android:layout_marginRight="20sp"
+                android:text="ANSWER"
+                android:textSize="15sp"
+                android:layout_marginLeft="10dp"
+                android:textColor="@color/white"
+                android:textStyle="bold"
+                android:background="@color/black"
+                android:id="@+id/correct"
+                />
+            <TextView
+                android:layout_width="60sp"
+                android:layout_height="wrap_content"
+                android:textSize="15sp"
+                android:textStyle="bold"
+                android:text="ATTEMPTED"
+                android:textColor="@color/white"
+                android:layout_marginRight="10dp"
+                android:background="@color/black"
+                android:id="@+id/ans"
+                />
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/Q"
             android:layout_marginTop="30dp"
             android:orientation="horizontal"
             android:id="@+id/Q1"
@@ -173,6 +221,7 @@
                 android:layout_height="wrap_content"
                 android:textSize="15sp"
                 android:text="ans"
+                android:layout_marginRight="10dp"
                 android:id="@+id/enteredAns1"
                 />
         </LinearLayout>
@@ -209,6 +258,7 @@
                 android:layout_height="wrap_content"
                 android:textSize="15sp"
                 android:text="ans"
+                android:layout_marginRight="10dp"
                 android:id="@+id/enteredAns2"
                 />
         </LinearLayout>
@@ -247,6 +297,7 @@
                 android:layout_width="60sp"
                 android:layout_height="wrap_content"
                 android:textSize="15sp"
+                android:layout_marginRight="10dp"
                 android:text="ans"
                 android:id="@+id/enteredAns3"
                 />
@@ -285,6 +336,7 @@
                 android:layout_height="wrap_content"
                 android:textSize="15sp"
                 android:text="ans"
+                android:layout_marginRight="10dp"
                 android:id="@+id/enteredAns4"
                 />
         </LinearLayout>
@@ -324,6 +376,7 @@
                 android:layout_height="wrap_content"
                 android:textSize="15sp"
                 android:text="ans"
+                android:layout_marginRight="10dp"
                 android:id="@+id/enteredAns5"
                 />
         </LinearLayout>
@@ -363,6 +416,7 @@
                 android:layout_height="wrap_content"
                 android:textSize="15sp"
                 android:text="ans"
+                android:layout_marginRight="10dp"
                 android:id="@+id/enteredAns6"
                 />
         </LinearLayout>
@@ -403,6 +457,7 @@
                 android:layout_height="wrap_content"
                 android:textSize="15sp"
                 android:text="ans"
+                android:layout_marginRight="10dp"
                 android:id="@+id/enteredAns7"
                 />
         </LinearLayout>
@@ -441,6 +496,7 @@
                 android:layout_height="wrap_content"
                 android:textSize="15sp"
                 android:text="ans"
+                android:layout_marginRight="10dp"
                 android:id="@+id/enteredAns8"
                 />
         </LinearLayout>
@@ -479,6 +535,7 @@
                 android:layout_height="wrap_content"
                 android:textSize="15sp"
                 android:text="ans"
+                android:layout_marginRight="10dp"
                 android:id="@+id/enteredAns9"
                 />
         </LinearLayout>
@@ -517,6 +574,7 @@
                 android:layout_height="wrap_content"
                 android:textSize="15sp"
                 android:text="ans"
+                android:layout_marginRight="10dp"
                 android:id="@+id/enteredAns10"
                 />
         </LinearLayout>
