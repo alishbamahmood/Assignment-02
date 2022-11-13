@@ -162,10 +162,7 @@ public class MainActivity extends AppCompatActivity {
         next.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
-                TextView a;
-                a=findViewById(R.id.a);
-                a.setText(answer);
-                //System.out.println(answer);
+
                 String[] array = new String[]{quizQues.get(i).getQue(),quizQues.get(i).getAnswer(),answer};
                 queAns.add(array);
                 if(quizQues.get(i).getAnswer().trim().toLowerCase().equals(answer.trim().toLowerCase()))
