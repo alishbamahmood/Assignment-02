@@ -136,7 +136,7 @@
             android:textStyle="bold"
             android:textAlignment="center"
             android:textSize="25dp"
-            android:layout_marginTop="100sp"
+            android:layout_marginTop="120sp"
             android:textColor="@color/black"
             />
         <LinearLayout
@@ -151,7 +151,7 @@
             <TextView
                 android:layout_marginLeft="20sp"
                 android:layout_width="220sp"
-                android:layout_height="15sp"
+                android:layout_height="wrap_content"
                 android:textSize="15sp"
                 android:text="q1"
                 android:id="@+id/q1"
@@ -160,7 +160,7 @@
 
             <TextView
                 android:layout_width="60sp"
-                android:layout_height="15sp"
+                android:layout_height="wrap_content"
                 android:layout_marginRight="20sp"
                 android:text="correct"
                 android:background="#008000"
@@ -170,7 +170,7 @@
                 />
             <TextView
                 android:layout_width="60sp"
-                android:layout_height="15sp"
+                android:layout_height="wrap_content"
                 android:textSize="15sp"
                 android:text="ans"
                 android:id="@+id/enteredAns1"
@@ -187,7 +187,7 @@
             <TextView
                 android:layout_marginLeft="20sp"
                 android:layout_width="220sp"
-                android:layout_height="15sp"
+                android:layout_height="wrap_content"
                 android:textSize="15sp"
                 android:text="q2"
                 android:id="@+id/q2"
@@ -196,7 +196,7 @@
 
             <TextView
                 android:layout_width="60sp"
-                android:layout_height="15sp"
+                android:layout_height="wrap_content"
                 android:layout_marginRight="20sp"
                 android:text="correct"
                 android:layout_marginLeft="10dp"
@@ -206,7 +206,7 @@
                 />
             <TextView
                 android:layout_width="60sp"
-                android:layout_height="15sp"
+                android:layout_height="wrap_content"
                 android:textSize="15sp"
                 android:text="ans"
                 android:id="@+id/enteredAns2"
@@ -226,7 +226,7 @@
             <TextView
                 android:layout_marginLeft="20sp"
                 android:layout_width="220sp"
-                android:layout_height="15sp"
+                android:layout_height="wrap_content"
                 android:textSize="15sp"
                 android:text="q3"
                 android:id="@+id/q3"
@@ -235,7 +235,7 @@
 
             <TextView
                 android:layout_width="60sp"
-                android:layout_height="15sp"
+                android:layout_height="wrap_content"
                 android:layout_marginRight="20sp"
                 android:text="correct"
                 android:layout_marginLeft="10dp"
@@ -245,7 +245,7 @@
                 />
             <TextView
                 android:layout_width="60sp"
-                android:layout_height="15sp"
+                android:layout_height="wrap_content"
                 android:textSize="15sp"
                 android:text="ans"
                 android:id="@+id/enteredAns3"
@@ -263,7 +263,7 @@
             <TextView
                 android:layout_marginLeft="20sp"
                 android:layout_width="220sp"
-                android:layout_height="15sp"
+                android:layout_height="wrap_content"
                 android:textSize="15sp"
                 android:text="q4"
                 android:id="@+id/q4"
@@ -272,7 +272,7 @@
 
             <TextView
                 android:layout_width="60sp"
-                android:layout_height="15sp"
+                android:layout_height="wrap_content"
                 android:layout_marginRight="20sp"
                 android:text="correct"
                 android:layout_marginLeft="10dp"
@@ -282,7 +282,7 @@
                 />
             <TextView
                 android:layout_width="60sp"
-                android:layout_height="15sp"
+                android:layout_height="wrap_content"
                 android:textSize="15sp"
                 android:text="ans"
                 android:id="@+id/enteredAns4"
@@ -302,7 +302,7 @@
             <TextView
                 android:layout_marginLeft="20sp"
                 android:layout_width="220sp"
-                android:layout_height="15sp"
+                android:layout_height="wrap_content"
                 android:textSize="15sp"
                 android:text="q5"
                 android:id="@+id/q5"
@@ -311,7 +311,7 @@
 
             <TextView
                 android:layout_width="60sp"
-                android:layout_height="15sp"
+                android:layout_height="wrap_content"
                 android:layout_marginRight="20sp"
                 android:text="correct"
                 android:layout_marginLeft="10dp"
@@ -321,7 +321,7 @@
                 />
             <TextView
                 android:layout_width="60sp"
-                android:layout_height="15sp"
+                android:layout_height="wrap_content"
                 android:textSize="15sp"
                 android:text="ans"
                 android:id="@+id/enteredAns5"
@@ -341,7 +341,7 @@
             <TextView
                 android:layout_marginLeft="20sp"
                 android:layout_width="220sp"
-                android:layout_height="15sp"
+                android:layout_height="wrap_content"
                 android:textSize="15sp"
                 android:text="q6"
                 android:id="@+id/q6"
@@ -350,7 +350,7 @@
 
             <TextView
                 android:layout_width="60sp"
-                android:layout_height="15sp"
+                android:layout_height="wrap_content"
                 android:layout_marginRight="20sp"
                 android:text="correct"
                 android:layout_marginLeft="10dp"
@@ -360,7 +360,7 @@
                 />
             <TextView
                 android:layout_width="60sp"
-                android:layout_height="15sp"
+                android:layout_height="wrap_content"
                 android:textSize="15sp"
                 android:text="ans"
                 android:id="@+id/enteredAns6"
@@ -381,7 +381,7 @@
             <TextView
                 android:layout_marginLeft="20sp"
                 android:layout_width="220sp"
-                android:layout_height="15sp"
+                android:layout_height="wrap_content"
                 android:textSize="15sp"
                 android:text="q7"
                 android:id="@+id/q7"
@@ -390,7 +390,7 @@
 
             <TextView
                 android:layout_width="60sp"
-                android:layout_height="15sp"
+                android:layout_height="wrap_content"
                 android:layout_marginRight="20sp"
                 android:text="correct"
                 android:layout_marginLeft="10dp"
@@ -400,7 +400,7 @@
                 />
             <TextView
                 android:layout_width="60sp"
-                android:layout_height="15sp"
+                android:layout_height="wrap_content"
                 android:textSize="15sp"
                 android:text="ans"
                 android:id="@+id/enteredAns7"
@@ -419,7 +419,7 @@
             <TextView
                 android:layout_marginLeft="20sp"
                 android:layout_width="220sp"
-                android:layout_height="15sp"
+                android:layout_height="wrap_content"
                 android:textSize="15sp"
                 android:text="q8"
                 android:id="@+id/q8"
@@ -428,7 +428,7 @@
 
             <TextView
                 android:layout_width="60sp"
-                android:layout_height="15sp"
+                android:layout_height="wrap_content"
                 android:layout_marginRight="20sp"
                 android:text="correct"
                 android:layout_marginLeft="10dp"
@@ -438,7 +438,7 @@
                 />
             <TextView
                 android:layout_width="60sp"
-                android:layout_height="15sp"
+                android:layout_height="wrap_content"
                 android:textSize="15sp"
                 android:text="ans"
                 android:id="@+id/enteredAns8"
@@ -457,7 +457,7 @@
             <TextView
                 android:layout_marginLeft="20sp"
                 android:layout_width="220sp"
-                android:layout_height="15sp"
+                android:layout_height="wrap_content"
                 android:textSize="15sp"
                 android:text="q9"
                 android:id="@+id/q9"
@@ -466,7 +466,7 @@
 
             <TextView
                 android:layout_width="60sp"
-                android:layout_height="15sp"
+                android:layout_height="wrap_content"
                 android:layout_marginRight="20sp"
                 android:text="correct"
                 android:layout_marginLeft="10dp"
@@ -476,7 +476,7 @@
                 />
             <TextView
                 android:layout_width="60sp"
-                android:layout_height="15sp"
+                android:layout_height="wrap_content"
                 android:textSize="15sp"
                 android:text="ans"
                 android:id="@+id/enteredAns9"
@@ -495,7 +495,7 @@
             <TextView
                 android:layout_marginLeft="20sp"
                 android:layout_width="220sp"
-                android:layout_height="15sp"
+                android:layout_height="wrap_content"
                 android:textSize="15sp"
                 android:text="q10"
                 android:id="@+id/q10"
@@ -504,7 +504,7 @@
 
             <TextView
                 android:layout_width="60sp"
-                android:layout_height="15sp"
+                android:layout_height="wrap_content"
                 android:layout_marginRight="20sp"
                 android:text="correct"
                 android:layout_marginLeft="10dp"
@@ -514,7 +514,7 @@
                 />
             <TextView
                 android:layout_width="60sp"
-                android:layout_height="15sp"
+                android:layout_height="wrap_content"
                 android:textSize="15sp"
                 android:text="ans"
                 android:id="@+id/enteredAns10"
