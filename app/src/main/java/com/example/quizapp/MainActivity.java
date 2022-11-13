@@ -107,7 +107,7 @@ public class MainActivity extends AppCompatActivity {
         quizQues.add(new Quiz("Bucky Balls are used as",options5,"Lubricants"));
 
         String[] options6 =  new String[]{"Soft","Hard","Bulky","none"};
-        quizQues.add(new Quiz("Diamonds is ____________",options6,"Hard"));
+        quizQues.add(new Quiz("Diamond is ____________",options6,"Hard"));
 
         String[] options7 =  new String[]{"Velocity","Density","Pressure","none"};
         quizQues.add(new Quiz("Mass per unit volume is:",options7,"Density"));
@@ -176,25 +176,17 @@ public class MainActivity extends AppCompatActivity {
                     setData(i);
                 }
 
-
                 else
                 {
-
                     linearLayout.setVisibility(View.INVISIBLE);
                     linearLayout2.setVisibility(View.VISIBLE);
-
                     scoreView.setText("Score: " + score);
-
                     setData2();
                 }
-
-
             }
         });
 
-
     }
-
 
     private void setData2()
     {
@@ -318,7 +310,6 @@ public class MainActivity extends AppCompatActivity {
         {
             a10.setBackgroundColor(Color.RED);
         }
-
 
     }
     private void setData(int num) {
