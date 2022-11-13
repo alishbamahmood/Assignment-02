@@ -23,7 +23,7 @@ public class MainActivity extends AppCompatActivity {
     ArrayList<Quiz> quizQues = new ArrayList<>();
     ArrayList<String[]> queAns = new ArrayList<>();
     //List<String> ans = new ArrayList<>();
-    String answer;
+    String answer="";
 
     TextView q1,q2,q3,q4,q5,q6,q7,q8,q9,q10;
     TextView c1,c2,c3,c4,c5,c6,c7,c8,c9,c10;
