@@ -22,7 +22,6 @@ public class MainActivity extends AppCompatActivity {
 
     ArrayList<Quiz> quizQues = new ArrayList<>();
     ArrayList<String[]> queAns = new ArrayList<>();
-    //List<String> ans = new ArrayList<>();
     String answer="";
 
     TextView q1,q2,q3,q4,q5,q6,q7,q8,q9,q10;
@@ -33,11 +32,6 @@ public class MainActivity extends AppCompatActivity {
 
     int score=0;
     int i=0;
-
-    Integer[] selected = new Integer[]{};
-
-    List<Integer> selectedList = new ArrayList<>(Arrays.asList(selected));
-
 
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
@@ -128,7 +122,6 @@ public class MainActivity extends AppCompatActivity {
         quizQues.add(new Quiz("____________ is an irreversible cell.",options10,"Dry Cell"));
 
         Collections.shuffle(quizQues);
-
         setData(i);
 
         btn1.setOnClickListener(new View.OnClickListener() {
