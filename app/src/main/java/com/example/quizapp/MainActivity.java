@@ -2,6 +2,7 @@ package com.example.quizapp;
 
 import androidx.appcompat.app.AppCompatActivity;
 
+import android.graphics.Color;
 import android.os.Bundle;
 
 import android.view.View;
@@ -77,9 +78,11 @@ public class MainActivity extends AppCompatActivity {
             public void onClick(View view) {
                 if(quizQues.get(i).getAnswer().equals(btn1.getText().toString()))
                 {
+                    btn1.setBackgroundColor(Color.GREEN);
                     score++;
 
                 }
+                btn1.setBackgroundColor(Color.RED);
                 setData(++i);
             }
         });
@@ -90,8 +93,9 @@ public class MainActivity extends AppCompatActivity {
                 if(quizQues.get(i).getAnswer().equals(btn2.getText().toString()))
                 {
                     score++;
-
+                    btn2.setBackgroundColor(Color.GREEN);
                 }
+                btn2.setBackgroundColor(Color.RED);
                 setData(++i);
             }
         });
@@ -102,8 +106,9 @@ public class MainActivity extends AppCompatActivity {
                 if(quizQues.get(i).getAnswer().equals(btn3.getText().toString()))
                 {
                     score++;
-
+                    btn3.setBackgroundColor(Color.GREEN);
                 }
+                btn3.setBackgroundColor(Color.RED);
                 setData(++i);
             }
         });
@@ -114,8 +119,9 @@ public class MainActivity extends AppCompatActivity {
                 if(quizQues.get(i).getAnswer().equals(btn4.getText().toString()))
                 {
                     score++;
-
+                    btn4.setBackgroundColor(Color.GREEN);
                 }
+                btn4.setBackgroundColor(Color.RED);
                 setData(++i);
             }
         });
