@@ -197,7 +197,7 @@ public class MainActivity extends AppCompatActivity {
 
     private void setData2()
     {
-        q1.setText(queAns.get(0)[0]);
+        q1.setText("1. " +queAns.get(0)[0]);
         c1.setText(queAns.get(0)[1]);
         a1.setText(queAns.get(0)[2]);
         if(queAns.get(0)[1].trim().toLowerCase().equals(queAns.get(0)[2].trim().toLowerCase()))
@@ -210,7 +210,7 @@ public class MainActivity extends AppCompatActivity {
         }
 
 
-        q2.setText(queAns.get(1)[0]);
+        q2.setText("2. " + queAns.get(1)[0]);
         c2.setText(queAns.get(1)[1]);
         a2.setText(queAns.get(1)[2]);
         if(queAns.get(1)[1].trim().toLowerCase().equals(queAns.get(1)[2].trim().toLowerCase()))
@@ -222,7 +222,7 @@ public class MainActivity extends AppCompatActivity {
             a2.setBackgroundColor(Color.RED);
         }
 
-        q3.setText(queAns.get(2)[0]);
+        q3.setText("3. " +queAns.get(2)[0]);
         c3.setText(queAns.get(2)[1]);
         a3.setText(queAns.get(2)[2]);
         if(queAns.get(2)[1].trim().toLowerCase().equals(queAns.get(2)[2].trim().toLowerCase()))
@@ -234,7 +234,7 @@ public class MainActivity extends AppCompatActivity {
             a3.setBackgroundColor(Color.RED);
         }
 
-        q4.setText(queAns.get(3)[0]);
+        q4.setText("4. " +queAns.get(3)[0]);
         c4.setText(queAns.get(3)[1]);
         a4.setText(queAns.get(3)[2]);
         if(queAns.get(3)[1].trim().toLowerCase().equals(queAns.get(3)[2].trim().toLowerCase()))
@@ -246,7 +246,7 @@ public class MainActivity extends AppCompatActivity {
             a4.setBackgroundColor(Color.RED);
         }
 
-        q5.setText(queAns.get(4)[0]);
+        q5.setText("5. " +queAns.get(4)[0]);
         c5.setText(queAns.get(4)[1]);
         a5.setText(queAns.get(4)[2]);
         if(queAns.get(4)[1].trim().toLowerCase().equals(queAns.get(4)[2].trim().toLowerCase()))
@@ -258,7 +258,7 @@ public class MainActivity extends AppCompatActivity {
             a5.setBackgroundColor(Color.RED);
         }
 
-        q6.setText(queAns.get(5)[0]);
+        q6.setText("6. " +queAns.get(5)[0]);
         c6.setText(queAns.get(5)[1]);
         a6.setText(queAns.get(5)[2]);
         if(queAns.get(5)[1].trim().toLowerCase().equals(queAns.get(5)[2].trim().toLowerCase()))
@@ -270,7 +270,7 @@ public class MainActivity extends AppCompatActivity {
             a6.setBackgroundColor(Color.RED);
         }
 
-        q7.setText(queAns.get(6)[0]);
+        q7.setText("7. " +queAns.get(6)[0]);
         c7.setText(queAns.get(6)[1]);
         a7.setText(queAns.get(6)[2]);
         if(queAns.get(6)[1].trim().toLowerCase().equals(queAns.get(6)[2].trim().toLowerCase()))
@@ -282,7 +282,7 @@ public class MainActivity extends AppCompatActivity {
             a7.setBackgroundColor(Color.RED);
         }
 
-        q8.setText(queAns.get(7)[0]);
+        q8.setText("8. " +queAns.get(7)[0]);
         c8.setText(queAns.get(7)[1]);
         a8.setText(queAns.get(7)[2]);
         if(queAns.get(7)[1].trim().toLowerCase().equals(queAns.get(7)[2].trim().toLowerCase()))
@@ -294,7 +294,7 @@ public class MainActivity extends AppCompatActivity {
             a8.setBackgroundColor(Color.RED);
         }
 
-        q9.setText(queAns.get(8)[0]);
+        q9.setText("9. " +queAns.get(8)[0]);
         c9.setText(queAns.get(8)[1]);
         a9.setText(queAns.get(8)[2]);
         if(queAns.get(8)[1].trim().toLowerCase().equals(queAns.get(8)[2].trim().toLowerCase()))
@@ -306,7 +306,7 @@ public class MainActivity extends AppCompatActivity {
             a9.setBackgroundColor(Color.RED);
         }
 
-        q10.setText(queAns.get(9)[0]);
+        q10.setText("10. " +queAns.get(9)[0]);
         c10.setText(queAns.get(9)[1]);
         a10.setText(queAns.get(9)[2]);
         if(queAns.get(9)[1].trim().toLowerCase().equals(queAns.get(9)[2].trim().toLowerCase()))
