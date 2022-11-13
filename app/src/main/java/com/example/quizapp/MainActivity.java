@@ -128,6 +128,8 @@ public class MainActivity extends AppCompatActivity {
             @Override
             public void onClick(View view) {
                 answer = btn1.getText().toString();
+                btn1.setBackgroundColor(Color.CYAN);
+
             }
         });
 
@@ -135,6 +137,8 @@ public class MainActivity extends AppCompatActivity {
             @Override
             public void onClick(View view) {
                 answer = btn2.getText().toString();
+                btn2.setBackgroundColor(Color.CYAN);
+
             }
         });
 
@@ -142,6 +146,8 @@ public class MainActivity extends AppCompatActivity {
             @Override
             public void onClick(View view) {
                 answer = btn3.getText().toString();
+                btn3.setBackgroundColor(Color.CYAN);
+
             }
         });
 
@@ -149,6 +155,8 @@ public class MainActivity extends AppCompatActivity {
             @Override
             public void onClick(View view) {
                 answer = btn4.getText().toString();
+                btn4.setBackgroundColor(Color.CYAN);
+
             }
         });
 
@@ -319,10 +327,13 @@ public class MainActivity extends AppCompatActivity {
         String [] array = quizQues.get(num).getOpts();
 
         List<String> opt = Arrays.asList(array);
-
         Collections.shuffle(opt);
-
         opt.toArray(array);
+
+        btn1.setBackgroundColor(Color.WHITE);
+        btn2.setBackgroundColor(Color.WHITE);
+        btn3.setBackgroundColor(Color.WHITE);
+        btn4.setBackgroundColor(Color.WHITE);
 
         btn1.setText(array[0]);
         btn2.setText(array[1]);
